@@ -1,0 +1,83 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.transaction-form {
+	background: #f5f5f5;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+th, td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #f5f5f5;
+}
+
+.transaction-positive {
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+.transaction-negative {
+	background-color: rgba(255, 0, 0, 0.1);
+}
+
+.total-amount {
+	font-size: 1.2em;
+	margin: 20px 0;
+	padding: 10px;
+	background: #f5f5f5;
+	border-radius: 4px;
+}
+
+.transaction-details {
+	padding: 15px;
+	margin-top: 20px;
+	background: #f9f9f9;
+	border-radius: 4px;
+	display: none;
+}
+
+.delete-btn {
+	background: #ff4444;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.delete-btn:hover {
+	background: #cc0000;
+}
